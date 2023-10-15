@@ -1,6 +1,8 @@
 .navbar-wrapper{
 	margin-top: 1.5rem;
 	margin-bottom: 2rem;
+	background-color: #090010;
+	padding-bottom: 1rem;
 }
 .logo img{
 	width: 80%;

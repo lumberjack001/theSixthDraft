@@ -3,3 +3,9 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background-color: #090010;
 }
+nav{
+	position: sticky;
+	top: 0;
+	z-index: 999;
+
+}
