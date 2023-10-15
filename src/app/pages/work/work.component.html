@@ -9,7 +9,7 @@
         </div>
         <div class="items-list">
             <div  *ngFor="let work of workList" class="text-center work">
-                <a href="" class="mb-3">
+                <a routerLink="work-details" class="mb-3">
                     <img [src]="work.imageSrc" class="work-img">
                     <h3 class="mt-2">{{ work.title }}</h3>
                 </a>   
