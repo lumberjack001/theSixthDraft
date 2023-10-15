@@ -23,6 +23,43 @@
 			"title": "Blog Heading #4",
 			"text": "Short Introduction to our services"
 		}
-		
+	],
+	"portfolio": [
+		{
+			"imageSrc": "assets/ayaba.png",
+			"title": "Item #1"
+		},
+		{
+			"imageSrc": "assets/FIDgallery.png",
+			"title": "Item #2"
+		},
+		{
+			"imageSrc": "assets/item3.png",
+			"title": "Item #3"
+		},
+		{
+			"imageSrc": "assets/avedok.png",
+			"title": "Item #4"
+		},
+		{
+			"imageSrc": "assets/item5.png",
+			"title": "Item #5"
+		},
+		{
+			"imageSrc": "assets/item6.png",
+			"title": "Item #6"
+		},
+		{
+			"imageSrc": "assets/item7.png",
+			"title": "Item #7"
+		},
+		{
+			"imageSrc": "assets/item8.png",
+			"title": "Item #8"
+		},
+		{
+			"imageSrc": "assets/item9.png",
+			"title": "Item #9"
+		}
 	]
 }]
