@@ -1,5 +1,28 @@
 [{
-    "homePage": {
-        "accordion": "The Sixth Draft is a marketing-focused design agency making use of strategy and design to help our clients communicate the true spirit behind their brand and connect with their target audience in the process."
-    }
+	"homePage": {
+			"accordion": "The Sixth Draft is a marketing-focused design agency making use of strategy and design to help our clients communicate the true spirit behind their brand and connect with their target audience in the process."
+	},
+	"blog": [
+		{
+			"imageSrc": "assets/blog-img-1.png",
+			"title": "Blog Heading #1",
+			"text": "Short Introduction to our services"
+		},
+		{
+			"imageSrc": "assets/blog-img-2.png",
+			"title": "Blog Heading #2",
+			"text": "Short Introduction to our services"
+		},
+		{
+			"imageSrc": "assets/blog-img-3.png",
+			"title": "Blog Heading #3",
+			"text": "Short Introduction to our services"
+		},
+		{
+			"imageSrc": "assets/blog-img-4.png",
+			"title": "Blog Heading #4",
+			"text": "Short Introduction to our services"
+		}
+		
+	]
 }]
