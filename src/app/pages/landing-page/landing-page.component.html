@@ -1,0 +1,98 @@
+<nav>
+    <app-navbar></app-navbar>
+  </nav>
+  
+  <section class="hero-section d-flex align-items-center justify-content-center">
+  
+    <div class="hero-wrapper text-center">
+      <h2>Designed to Convert</h2>
+      <p>Helping businesses convert leads to customers with strategy based designs...</p>
+      <button class="call-btn">Book a Call</button>
+    </div>
+    
+  </section>
+  
+  <section class="services-section">
+  
+    <div class="services-wrapper ">
+      <div class="services-header text-center">
+        <h3 >How Can We Help?</h3>
+        <p>Short Introduction to our services</p>
+      </div>
+      
+  
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Brand Identity Design
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              {{accordionBody}} <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Marketing Design
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             {{accordionBody}} <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Visual Marketing Design 
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              {{accordionBody}} <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </section>
+  
+  
+  <section class="featured-work">
+    <div class="featured-work-wrapper text-center ">
+      <h2 class="feat-work-text">Featured Work</h2>
+  
+      <div class="grid-container">
+        <div class="grid-item"><img src="assets/avedok.png" alt=""></div>
+        <div class="grid-item"><img src="assets/FIDgallery.png" alt=""></div>
+        <div class="grid-item"><img src="assets/ayaba.png" alt=""></div>
+      </div>
+  
+      <button class="view-more ">View More</button>
+    </div>
+  </section>
+  
+  <section class="market-container">
+    <div class="marketing">
+      <div class="marketing-wrapper">
+        <div class="marketing-text">
+          <h3>Transform Your <br>Marketing Game</h3>
+          <p>Convincing Text to Help Business owners make a decision</p>
+          <button class="view-more">Work With Us</button>
+        </div>
+        <!-- <img src="assets/sixthDraft.png" alt=""> -->
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <app-footer></app-footer>
+    <p class="copyright">Copyright the Sixth Draft 2023</p>
+  </footer>
