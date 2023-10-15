@@ -1,0 +1,22 @@
+.portfolio-heading{
+  padding-block: 3rem;
+}
+.portfolio-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.items-list{
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+}
+.work-img{
+  width: 80%;
+}
+.work a{
+  text-decoration: none;
+  color: white;
+}

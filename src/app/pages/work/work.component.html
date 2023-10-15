@@ -1,3 +1,23 @@
 <nav>
     <app-navbar></app-navbar>
 </nav>
+
+<section>
+    <div class="portfolio-container">
+        <div class="portfolio-heading mt-5 text-center">
+            <h3 class="portfolio-title">Portfolio</h3>
+        </div>
+        <div class="items-list">
+            <div  *ngFor="let work of workList" class="text-center work">
+                <a href="" class="mb-3">
+                    <img [src]="work.imageSrc" class="work-img">
+                    <h3 class="mt-2">{{ work.title }}</h3>
+                </a>   
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="mt-5">
+    <app-footer></app-footer>
+</footer>
