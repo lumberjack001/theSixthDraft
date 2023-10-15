@@ -9,6 +9,7 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { WorkComponent } from './pages/work/work.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { ProjectPageComponent } from './pages/project-page/project-page.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProjectPageComponent } from './pages/project-page/project-page.componen
     BlogComponent,
     WorkComponent,
     LandingPageComponent,
-    ProjectPageComponent
+    ProjectPageComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
