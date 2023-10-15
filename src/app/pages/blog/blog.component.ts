@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as BlogData from "src/assets/jsondata/textDataDB.json"
 
 @Component({
   selector: 'app-blog',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
+  blogData: any[] = BlogData
+  blogList: any[] = this.blogData[0].blog
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.blogList)
   }
 
 }

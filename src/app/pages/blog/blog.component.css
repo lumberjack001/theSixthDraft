@@ -1,0 +1,22 @@
+.blog-heading{
+  padding-block: 3rem;
+}
+.blog-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.blog-list{
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  color: white;
+}
+.blog-img{
+  width: 80%;
+}
+.blog a{
+  text-decoration: none;
+  color: white;
+}
