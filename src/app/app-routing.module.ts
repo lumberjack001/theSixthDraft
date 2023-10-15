@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { WorkComponent } from './pages/work/work.component';
+import { ProjectPageComponent } from './pages/project-page/project-page.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 const routes: Routes = [
   {
@@ -15,7 +17,17 @@ const routes: Routes = [
   },
   {
     path: 'work',
-    component: WorkComponent
+    component: PortfolioComponent,
+    children:[
+      {
+        path: '',
+        component: WorkComponent,
+      },
+      {
+        path:  'work-details',
+        component: ProjectPageComponent
+      }
+  ]
   }
 ];
 
