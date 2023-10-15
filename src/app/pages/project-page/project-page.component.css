@@ -1,0 +1,29 @@
+.project-wrapper{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.project-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.project-heading{
+  color: white;
+  font-size: 2rem;
+}
+
+.project-pagination{
+  display: flex;
+  justify-content: space-between;
+  margin-block: 3rem;
+}
+
+.project-pagination button{
+  background: transparent;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+}
