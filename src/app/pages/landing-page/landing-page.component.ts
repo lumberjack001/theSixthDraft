@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as textData from "src/assets/jsondata/textDataDB.json"
+import textData from "../../../../src/assets/jsondata/textDataDB.json"
 
 @Component({
   selector: 'app-landing-page',
