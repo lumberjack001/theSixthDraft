@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as BlogData from "src/assets/jsondata/textDataDB.json"
+import * as BlogData from "src/assets/jsondata/textdataDB.json"
 
 @Component({
   selector: 'app-blog',

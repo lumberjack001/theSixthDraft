@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as workData from "src/assets/jsondata/textDataDB.json"
+import * as workData from "src/assets/jsondata/textdataDB.json"
 
 
 @Component({
