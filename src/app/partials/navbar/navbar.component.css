@@ -97,7 +97,6 @@
 			display: block;
 		}
 		.nav-links-sm{
-			/* // margin-top: 5rem; */
 			display: flex;
 			gap: 2rem;
 			position: fixed;
@@ -111,7 +110,6 @@
 
 			transform: translateX(-130%);
 			transition: transform 1s;
-			/* z-index: 99999; */
 		}
 
 		.nav-links-sm[data-visible= true]{
