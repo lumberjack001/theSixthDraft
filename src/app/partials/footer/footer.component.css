@@ -9,6 +9,7 @@
 }
 .footer h3{
     font-size: 3rem;
+    font-weight: 700;
 }
 .footer p{
     font-size: 1.5rem;
@@ -21,4 +22,19 @@
 }
 .socials img{
     width: 50%;
+}
+
+@media (max-width: 400px) {
+    .footer{
+        width: 90%;
+    }
+    .footer h3{
+        font-size: 2rem;
+    }
+    .footer p{
+        font-size: 1rem;
+    }
+    .socials{
+        width: 50%;
+    }
 }

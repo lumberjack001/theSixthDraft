@@ -1,9 +1,24 @@
+h2,h3{
+	font-weight: 700;
+}
 .hero-section{
 	background-image: url("src/assets/bg-image.png");
+	width: 90%;
+	margin: 1.5rem auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 .hero-section h2{
 	font-family: 'Rajdhani', sans-serif;
+	font-size: 6rem;
 }
+.hero-section p{
+	font-size: 2rem;
+	width: 75%;
+	margin: 0 auto;
+}
+
 .call-btn{
 	background: white;
 	padding: 0.8rem;
@@ -18,15 +33,50 @@
 	padding: 2rem;
 	
 }
-.feat-work-text{
-	color: white;
-}
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto auto;
+	/* column-gap: 2rem; */
 	justify-content: space-evenly;
 	width: 90%;
 	margin: 0 auto;
+}
+
+.grid-item p{
+	font-size: 1.3rem;
+	margin-top: 1.2rem;
+}
+
+.accordion{
+	width: 50%;
+	color: black;
+	margin: 0 auto;
+}
+.accordion-item{
+	margin-block: 1.5rem;
+	border-radius: 2rem;
+}
+.accordion-button{
+	font-size: 1.5rem;
+	font-weight: 700;
+	border: none;
+}
+.accordion-body{
+	font-size: 1.15rem;
+	padding: 1.5rem;
+}
+.accordion-button, .accordion-button:first-of-type, .accordion-item:last-of-type .accordion-button.collapsed ,.accordion-item{
+	border-radius: 2rem;
+}
+.accordion-button:focus{
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+	background: transparent;
+	border: none;
+	color: black;
 }
 .view-more{
 	background: #8000DF;
@@ -58,58 +108,24 @@
 	color: white;
 }
 .copyright{
-	color: white;
 	font-size: 1.2rem;
+	padding-block: 1.3rem;
+	width: 70%;
+	margin: 0 auto;
 }
 @media (min-width: 1500px) {
 	.hero-section{
-		width: 90%;
-		margin: 1.5rem auto;
-		height: 75vh;
-		background-repeat: no-repeat;
-		background-size: contain;
-		background-position: center;
-		color: white;
-	}
-	.hero-section h2{
-    font-size: 6rem;
-	}
-	.hero-section p{
-		font-size: 2rem;
-		width: 75%;
-		margin: 0 auto;
+	height: 75vh;
 	}
 
 	.services-wrapper{
 		width: 90%;
 		margin: 2rem auto;
 		height: 65vh;
-		color: white;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-	}
-	.accordion{
-		width: 50%;
-		color: black;
-		margin: 0 auto;
-	}
-	.accordion-item{
-		margin-block: 1.5rem;
-		border-radius: 2rem;
-	}
-	.accordion-button{
-		font-size: 1.5rem;
-		font-weight: 700;
-	}
-	.accordion-body{
-		font-size: 1.15rem;
-		padding: 1.5rem;
-	}
-	.accordion-button, .accordion-button:first-of-type, .accordion-item:last-of-type .accordion-button.collapsed ,.accordion-item{
-		border-radius: 2rem;
-		/* border-bottom-left-radius: 2rem; */
 	}
 	.services-header h3{
 		font-size: 3rem;
@@ -125,4 +141,81 @@
 	.marketing-text p{
 		font-size: 1.2rem;
 	}
+}
+@media (max-width: 1500px) {
+	.services-wrapper{
+		padding-block: 5rem;
+	}
+
+	.hero-section{
+		height: 65vh;
+	}
+}
+@media (max-width: 1300px) {
+	.grid-container{
+		grid-template-columns: auto auto;
+		justify-content: space-between;
+		row-gap: 3rem;
+		width: 90%;
+	}
+	.grid-item{
+		width: 90%;
+	}
+	.accordion{
+		width: 75%;
+	}
+	.hero-section{
+		height: 75vh;
+		background-size: cover;
+		border-radius: 3.5rem;
+	}
+}
+@media (max-width: 890px) {
+	.hero-section{
+		height: 55vh;
+	}
+	.hero-section h2{
+		font-size: 4rem;
+	}
+	.hero-section p{
+		font-size: 1.3rem;
+	}
+	
+}
+@media (max-width:650px) {
+	.view-more{
+		font-size: 0.5rem;
+	}
+	.call-btn{
+		font-size: 1.3rem;
+	}
+}
+@media (max-width: 500px) {
+	.grid-container{
+		grid-template-columns: auto ;
+		row-gap: 1rem;
+	}
+	.grid-item{
+		width: 100%;
+	}
+	.accordion{
+		width: 85%;
+	}
+	.accordion-button{
+		font-size: 1rem;
+	}
+	.call-btn{
+		font-size: 1.1rem;
+		width: 40%;
+	}
+}
+@media (max-width: 400px){
+	.copyright{
+		font-size: 1rem;
+	}
+	.call-btn{
+		font-size: 0.8rem;
+		width: 35%;
+	}
+	
 }
