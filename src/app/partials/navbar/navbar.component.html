@@ -10,7 +10,7 @@
         </div>
 
         <div class="menu" *ngIf="true">
-            <button><img src="assets/menu.png" alt=""></button>
+            <button (click)="toggleNav()"><img src="assets/menu.png" alt=""></button>
         </div>
 
         <div class="nav-links">
@@ -18,5 +18,14 @@
             <a class="navLink" routerLink="/blog" routerLinkActive="active-link" >Blog</a>
         </div>
 
+    </div>
+
+    <div class="nav-sm">
+        <div class="nav-links-sm" [attr.data-visible]="hide">
+            <a routerLink="/work"  routerLinkActive="active-link" class="navLink">Work</a>
+            <a href="" class="navLink">Services</a>
+            <a href="" class="navLink">Contact</a>
+            <a routerLink="/blog"  routerLinkActive="active-link" class="navLink">Blog</a>
+        </div>
     </div>
 </section>

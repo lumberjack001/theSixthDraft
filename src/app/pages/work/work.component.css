@@ -20,3 +20,8 @@
   text-decoration: none;
   color: white;
 }
+@media (max-width: 550px) {
+  .items-list{
+    width: 85%;
+  }
+}

@@ -4,7 +4,6 @@
 }
 
 .project-title {
-  color: white;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -26,4 +25,13 @@
   font-size: 2rem;
   border: none;
   outline: none;
+}
+@media (max-width: 500px) {
+  .project-heading{
+    margin-top: 3rem;
+    font-size: 1rem;
+  }
+  .project-pagination button{
+    font-size: 1rem;
+  }
 }
