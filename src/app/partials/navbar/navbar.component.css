@@ -1,9 +1,16 @@
+.navbar-container{
+	background-color: #090010;
+	padding-top: 1.3rem;
+}
+
 .navbar-wrapper{
+	width: 80%;
+	margin: 0 auto;
 	margin-top: 1.5rem;
 	margin-bottom: 2rem;
-	background-color: #090010;
 	padding-bottom: 1rem;
 }
+
 .logo img{
 	width: 80%;
 }
@@ -42,7 +49,48 @@
 	background-color: #FFA425;
 }
 
-@media (min-width: 1500px) {	
-  
-	
+.menu{
+	display: none;
+}
+.menu button {
+	border: none;
+	background: transparent;
+	outline: 0;
+}
+
+@media (max-width: 1500px) {	
+  .logo img{
+		width: 60%;
+	}
+	.navLink{
+		font-size: 1.5rem;
+	}
+	.navbar-wrapper{
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 1300px) {
+	.logo img{
+		width: 50%;
+	}
+}
+@media (max-width: 950px) {
+	.navbar-wrapper{
+		width: 95%;
+	}
+}
+@media (max-width: 730px) {
+	.navLink{
+		font-size: 1.2rem;
+		margin-inline: 1.5rem;
+	}
+}
+@media (max-width: 550px){
+		.nav-links{
+			display: none;
+		}
+		.menu {
+			display: block;
+		}
 }
