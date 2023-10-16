@@ -183,9 +183,6 @@ h2,h3{
 	
 }
 @media (max-width:650px) {
-	.view-more{
-		font-size: 0.5rem;
-	}
 	.call-btn{
 		font-size: 1.3rem;
 	}
